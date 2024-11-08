@@ -6,14 +6,16 @@ BioBotanica Next-Gen addresses this with a ResNet model for accurate plant image
 The BioBotanica Next-Gen project is an AI-driven solution that redefines medicinal plant identification and information accessibility by employing advanced machine learning and language models. Designed to overcome the limitations of traditional plant identification methods, which are time-intensive and require expert knowledge, BioBotanica Next-Gen enables users—whether healthcare professionals, researchers, educators, or plant enthusiasts—to gain valuable botanical insights effortlessly.
 
 ## Features
+```
 - AI-powered plant identification
 - Confidence score indicating classification reliability
 - Detailed outputs including scientific and common names, medicinal uses
 - User-friendly and intuitive interface
 - Broad Accessibility
-
+```
 ## Requirements
 # SOFTWARE REQUIREMENTS:
+```
 Web Application Framework
     -Streamlit: Used for building the interactive web interface that allows users to upload images and view results.
 Deep Learning Frameworks:
@@ -29,7 +31,7 @@ Natural Language Processing Tools:
 Development Environment:
     -IDE/Code Editor: Google Colab, Visual Studio Code  for Python development.
     -Version Control: Git for managing code changes and collaboration.
-
+```
 ## System Architecture
 ![WhatsApp Image 2024-11-03 at 22 24 56_27f1cb68](https://github.com/user-attachments/assets/e18521f2-ff9f-498f-988c-8dac8272ff1a)
 
@@ -55,6 +57,7 @@ Development Environment:
 Detection Accuracy: 96.7%
 
 ## Results and Impact
+```
 Results-
 High Accuracy: ResNet model reliably identifies medicinal plants with confidence scoring.
 Concise Information: RAG and GPT-4.0 provide quick summaries of uses, preparations, and safety.
@@ -66,7 +69,7 @@ Supports Healthcare: Aids informed decisions for healthcare and research.
 Educational Resource: Makes botanical information accessible for learning.
 Improves Accessibility: Democratizes plant knowledge for all users.
 Promotes Conservation: Raises awareness for sustainable plant use.
-
+```
 ## Articles published / References
 [1] Vishal Batvia, Drashti Patel, and Dr. Avani R. Vasant, “A Survey on Ayurvedic Medicine Classification using Tensor flow,” International Journal of Computer Trends and Technology, Volume 53, Number 2, November 2017.
 
