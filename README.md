@@ -1,58 +1,82 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## BioBotanica : Next-Gen Medicinal Plant Detection using Generative AI And RAG.
+Medicinal plants play a crucial role in healthcare, research, and conservation. Traditional identification methods are often time-consuming and require expertise.
+BioBotanica Next-Gen addresses this with a ResNet model for accurate plant image classification and RAG-based language modeling to provide concise, reliable summaries of medicinal uses.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The BioBotanica Next-Gen project is an AI-driven solution that redefines medicinal plant identification and information accessibility by employing advanced machine learning and language models. Designed to overcome the limitations of traditional plant identification methods, which are time-intensive and require expert knowledge, BioBotanica Next-Gen enables users—whether healthcare professionals, researchers, educators, or plant enthusiasts—to gain valuable botanical insights effortlessly.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- AI-powered plant identification
+- Confidence score indicating classification reliability
+- Detailed outputs including scientific and common names, medicinal uses
+- User-friendly and intuitive interface
+- Broad Accessibility
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+# SOFTWARE REQUIREMENTS:
+Web Application Framework
+    -Streamlit: Used for building the interactive web interface that allows users to upload images and view results.
+Deep Learning Frameworks:
+    -PyTorch: Selected for training and deploying the ResNet model for image classification.
+    -Torchvision: Utilized for model architectures and image preprocessing functions.
+Natural Language Processing Tools:
+    -OpenAI API: Used for generating text and summaries of medicinal properties from the identified plants.
+    -Image Processing Library:
+    -Pillow: Used for handling and manipulating image inputs from users.
+    -HTTP Request Library:
+    -Requests: For making HTTP calls to external APIs and information retrieval systems.
+
+Development Environment:
+    -IDE/Code Editor: Google Colab, Visual Studio Code  for Python development.
+    -Version Control: Git for managing code changes and collaboration.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+![WhatsApp Image 2024-11-03 at 22 24 56_27f1cb68](https://github.com/user-attachments/assets/e18521f2-ff9f-498f-988c-8dac8272ff1a)
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Home Page
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![WhatsApp Image 2024-11-03 at 21 29 28_547bcf52](https://github.com/user-attachments/assets/f7d29dbd-b453-49ef-a199-a7a8128b3144)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+
+#### Output2 - Image Classification 
+
+![WhatsApp Image 2024-11-03 at 21 30 41_beb34aea](https://github.com/user-attachments/assets/69a3df06-c6d1-4294-b200-86010ba28a4f)
+
+
+#### Output3 - Text Generation
+
+![WhatsApp Image 2024-11-03 at 21 31 07_6f1772df](https://github.com/user-attachments/assets/e0a59641-cc77-47b4-bc12-42986f5bc0eb)
+
 
 Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
-
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+Results-
+High Accuracy: ResNet model reliably identifies medicinal plants with confidence scoring.
+Concise Information: RAG and GPT-4.0 provide quick summaries of uses, preparations, and safety.
+Accessible Interface: Intuitive design.
+Fast Processing: Optimized backend ensures quick identification and responses.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+Impact-
+Supports Healthcare: Aids informed decisions for healthcare and research.
+Educational Resource: Makes botanical information accessible for learning.
+Improves Accessibility: Democratizes plant knowledge for all users.
+Promotes Conservation: Raises awareness for sustainable plant use.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+[1] Vishal Batvia, Drashti Patel, and Dr. Avani R. Vasant, “A Survey on Ayurvedic Medicine Classification using Tensor flow,” International Journal of Computer Trends and Technology, Volume 53, Number 2, November 2017.
+
+[2] Azadnia, Rahim & Al-Amidi, Mohammed & Mohammadi, Hamed & Cifci, Mehmet Akif & Daryab, Avat & Cavallo, Eugenio. (2022). An AI Based Approach for Medicinal Plant Identification Using Deep CNN Based on Global Average Pooling. Agronomy .12.10.3390/ agronomy 12112723. 
+
+[3] Malik OA, Ismail N, Hussein BR, Yahya U. Automated Real-Time Identification of Medicinal Plants Species in Natural Environment Using Deep Learning Models-A Case Study from Borneo Region. Plants (Basel). 2022 Jul 27;11(15):1952. doi: 10.3390/plants11151952. PMID: 35956431; PMCID: PMC9370651.
+
+[4] M.R. Dileep and P.N. Pournami,”Ayurleaf: A deep learning approach for classification of medicinal plants,” IEEE Region 10 Conference (TENCON), 2019.
+
+[5] Ming Liang and Xiaolin Hu, ”Recurrent Convolutional Neural Network for Object Recognition,” IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 3367-3375, 2015
 
 
 
